@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <style>
+        .home {
+            display: flex;
+            background: url("images/banner.jpg") no-repeat center;
+            height: 100vh;
+            color: #fff;
+            min-height: 500px;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .home .max-width {
+            width: 100%;
+            display: flex;
+        }
+        
+        .home .max-width .row {
+            margin-right: 0;
+        }
+        
+        .home .home-content .text-1 {
+            font-size: 30px;
+            color: #3f273f;
+        }
+        
+        .home .home-content .text-2 {
+            font-size: 33px;
+            font-weight: 400;
+            margin-left: -3px;
+            color: #3f273f;
+        }
+        
+        .home .home-content .text-3 {
+            font-size: 42px;
+            margin: 5px 0;
+            color: #3f273f;
+        }
+        
+        .home .home-content .text-3 span {
+            color: #F24C4E;
+            font-weight: 500;
+        }
+        
+        meter::-webkit-meter-optimum-value {
+            background: #4f304f;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="user">
+            <img src="p1.png" alt="">
+            <h3 class="name">Ritik Yadav</h3>
+        </div>
+
+        <nav class="navbar">
+            <ul style="font-weight: 900;">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <div id="menu" class="fas fa-bars"></div>
+
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hi, there!</div>
+                &nbsp&nbsp&nbsp
+                <div class="text-2"><b>RITIK </b>here.</div>
+                <div class="text-3">I'm a <span class="typing"></span></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>About Me</span> </h1>
+
+        <div class="row">
+
+            <div class="info">
+                <h3> I'm Ritik Yadav an IT engineering student, a web designer who mergers desgins and writings to compell intresting websites.
+                    <br><br>
+                    <p><a href="#"><button class="btn">Download CV<i class="fas fa-download"></i></button></a></p>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+    <section class="skills" id="skills">
+
+        <h1 class="heading"><span>Skills</span> </h1>
+        <div class="text">
+            <br><br><br>
+            <p style="font-size: 2.5rem; text-align: center;">
+                &nbsp&nbspI have learnt HTML, CSS, JavaScript, PHP, MySql and BootStrap. I am intreseted in <br>learning new things and gaining more knowledge.
+            </p>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-award"></i>
+                <span>HTML</span>
+                <p>
+                    <label for="disk_d"></label>
+                    <meter id="disk_d" value="0.9">90%</meter>
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-award"></i>
+                <span>CSS</span>
+                <p>
+                    <label for="disk_d"></label>
+                    <meter id="disk_d" value="0.8">80%</meter>
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-award"></i>
+                <span>JavaScript</span>
+                <p>
+                    <label for="disk_d"></label>
+                    <meter id="disk_d" value="0.6">60%</meter>
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-award"></i>
+                <span>PHP</span>
+                <p>
+                    <label for="disk_d"></label>
+                    <meter id="disk_d" value="0.6">60%</meter>
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-award"></i>
+                <span>MySql</span>
+                <p>
+                    <label for="disk_d"></label>
+                    <meter id="disk_d" value="0.9">90%</meter>
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-award"></i>
+                <span>BootStrap</span>
+                <p>
+                    <label for="disk_d"></label>
+                    <meter id="disk_d" value="0.7">70%</meter>
+                </p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="project" id="project">
+
+        <h1 class="heading"> <span>Projects</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <center><i class="fas fa-cloud-moon-rain"></i></center>
+                <center>
+                    <div class="text">Weather Forcast Site</div>
+                </center>
+                <center>
+                    <p>A site where you can check weather conditions at any place.</p>
+                </center>
+            </div>
+
+            <div class="box">
+                <center><i class="fas fa-envelope"></i></center>
+                <center>
+                    <div class="text">Email Message Sender</div>
+                </center>
+                <center>
+                    <p>A site for sending short messages via Email.</p>
+                    <center>
+            </div>
+
+            <div class="box">
+                <center><i class="fas fa-times-circle"></i>
+                    <center>
+                        <center>
+                            <div class="text">Flood Detection Site</div>
+                        </center>
+                        <center>
+                            <p>A site which analyses conditions and detects flood situations.</p>
+                        </center>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Contact Me</span> </h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">contact info</h3>
+
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i> ritikyadav6397@gmail.com </h3>
+                    <h3> <i class="fas fa-phone"></i> 8291563516 </h3>
+                    <h3> <i class="fas fa-phone"></i> 8779118123 </h3>
+                    <h3> <i class="fas fa-map-marker-alt"></i> Mumbai, India - 400067. </h3>
+                </div>
+
+            </div>
+
+            <form action="">
+
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <a href="#home" class="top">
+        <i class="far fa-arrow-alt-circle-up fa-2x"></i>
+    </a>
+    <footer>
+        <span>Created By <a href="https://github.com/ritikyadav444">Ritik Yadav</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
